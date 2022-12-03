@@ -1,12 +1,12 @@
-%cd /content
+cd /content
 
 
-!rm -rf ./fsf_client
+rm -rf ./fsf_client
 
 
-!git clone https://github.com/xyztnecniV/fsf_client
+git clone https://github.com/xyztnecniV/fsf_client
 
-%cd ./fsf_client
+cd ./fsf_client
 
 
-!python client.py --user xiaoyan --threads 2
+python client.py --user xiaoyan --threads 2
